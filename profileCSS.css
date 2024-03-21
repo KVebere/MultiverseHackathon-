@@ -1,0 +1,78 @@
+.pfpInfo, .pfp{
+    display: inline-block;
+    padding-top: 2.5%;
+}
+.pfp{
+    width: 10%;
+    min-width: 100px;
+    padding-left:5%;
+    border-radius: 100%;
+}
+.fullprofile{
+    width: 100%;
+    background-color: #6a315e;
+    position: sticky;
+    color: white;
+    border: 5%;
+    border-radius: 15px;
+}
+.pfpInfo{
+    padding-bottom: 2.5%;
+    font-size: 15px;
+    padding-left: 5%;
+}
+body{
+    background: linear-gradient(#4e3e8d,#271c55, #000000);
+    font-family: "times new roman";
+}
+.tweetimg{
+    width:50%;
+    padding-left:25%;
+    border-width: 10 px solid;
+}
+#tweet{
+    background-color: #6a315e;
+    color: white;
+    border:10em;
+    border-radius: 15px;
+    width:60vw;
+    margin-left:20%;
+    margin-right:20%;
+    align-items: center;
+    border:2px solid;
+    margin-top: 5%;
+    border-color:#371530;
+}
+.tweettext{
+    padding-left:5em;
+}
+h2{
+    padding-left: 2em;
+    margin-bottom: 0;
+}
+.tag{
+    font-style: italic;
+}
+.pfpid{
+    width:15em;
+    height: 10em;
+}
+#writeMessage{
+    background-color: black;
+    margin:0em;
+    padding:1em;
+    border: 0em;
+    position: sticky;
+    bottom:10px; 
+}
+.textinput, .send{
+    display: inline;
+}
+.send{
+    padding:5px;
+    width:8%;
+    
+}
+.textinput{
+    width:90%;
+}

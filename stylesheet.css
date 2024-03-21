@@ -1,0 +1,92 @@
+h1 { 
+    color: #FFFF;
+    font-family: "times new roman";
+}
+
+h3 {
+    color: #FFFF;
+    font-family: "times new roman";
+}
+
+P {
+    color: #FFFF;
+    font-family: "times new roman";
+}
+
+body {
+	background-color: #271c55;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#main {
+    position: relative;
+}
+
+#main-view {
+    background-color: #6a315e;
+    padding: 40px;
+    width: 700px;
+    border-radius: 50px;
+}
+
+#next-article {
+    background-color: #54346c;
+    border-radius: 50px;
+    padding: 20px;
+    width: 300px;
+    position: absolute;
+    top: 0px;
+    left: 800px;
+}
+
+#comments {
+    background-color: #522061;
+    border-radius: 50px;
+    padding: 20px;
+    width: 300px;
+    position: absolute;
+    top: 350px;
+    left: 800px;
+}
+
+menu, ul {
+    list-style-type: none;
+    display: inline-flex;
+    padding-left: 0px;
+}
+
+menu>ul>li {
+    padding-right: 30px;
+}
+
+menu>ul>li>button{
+    width: 150px;
+    height: 40px;
+    color: #FFFF;
+    background-color: #522061;
+    border: none;
+    border-radius: 10px;
+    font-family: "times new roman";
+    font-size: 18px;
+}
+
+#comments > section > img {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+}
+
+#comments > section > a > img {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+}
+
+#next-article > a > img {
+    width: 300px;
+    height: 200px;
+    border-radius: 50px;
+}

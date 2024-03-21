@@ -1,0 +1,90 @@
+body {
+    background-image: url('Images/background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+}
+
+body::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(38, 0, 74, 0.5);
+    z-index: -1;
+}
+
+h1, p {
+    text-align: center;
+    color: white;
+}
+
+h1 {
+    font-family: fantasy;
+    font-size: 50px;
+    margin-top: 0;
+}
+
+p {
+    font-family: Arial, sans-serif;
+    font-style: italic;
+}
+
+.portal {
+    width: 80%;
+    background-color: rgba(97, 0, 89, 0.5);
+    margin-left: auto;
+    margin-right: auto;
+    padding: 50px;
+    min-width: 800px;
+    min-height: 400px;
+    position: relative;
+    top: 20px;
+    bottom: 20px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 40px;
+}
+
+
+.portal img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid rgb(112, 255, 136);
+    box-shadow: 0 0 20px 5px white;
+}
+
+.portal img:hover {
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.Villians {
+    position: fixed;
+    right: 300px;
+    bottom: 100px;
+    width: 150px;
+    height: 150px;
+}
+
+.Dance {
+    position: fixed;
+    left: 0px;
+    bottom: 100px;
+    width: 150px;
+    height: 150px;
+}
